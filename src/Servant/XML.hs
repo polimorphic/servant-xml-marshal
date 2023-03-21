@@ -4,15 +4,12 @@
 
 module Servant.XML where
 
-import Data.ByteString.Builder (toLazyByteString)
-import Data.ByteString.Lazy (toStrict)
-import Data.ByteString.Lazy.Internal
-import Data.Conduit.Internal
-import Data.Map
+import Data.Map (empty)
 import Network.HTTP.Media ((//), (/:))
-import Servant.API
-import Text.XML
-import Text.XML.Marshal
+import Servant.API (Accept, MimeRender, contentType, mimeRender)
+import Text.XML (renderLBS)
+import Text.XML -- REMOVE
+import Text.XML.Marshal (ToXml, toXml)
 
 data XML
 
