@@ -4,7 +4,6 @@
 
 module Servant.XML where
 
-import Data.Map (empty)
 import Network.HTTP.Media ((//), (/:))
 import Servant.API (Accept, MimeRender, contentType, mimeRender)
 import Text.XML (renderLBS, def)
