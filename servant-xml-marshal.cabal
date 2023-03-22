@@ -1,5 +1,5 @@
 name:                servant-xml-marshal
-version:             0.0.0.0
+version:             0.0.1.0
 build-type:          Simple
 cabal-version:       >=1.10
 
@@ -12,5 +12,5 @@ library
                      , http-media >= 0.7.0 && <0.8
                      , servant >=0.16 && <0.19
                      , xml-conduit >=1.8.0.1 && <1.9.2
-                     , xml-marshal >=0.0.1.0 && <0.0.2
+                     , xml-marshal >=0.1.0 && <0.2
   exposed-modules:     Servant.XML
